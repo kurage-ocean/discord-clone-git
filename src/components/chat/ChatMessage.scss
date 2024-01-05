@@ -1,0 +1,17 @@
+.message{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    &info{
+        padding: 20px 20px 20px 10px;
+    }
+
+    &TimeStamp{
+        color: #7b7c85;
+        margin-left: 20px;
+        font-style: 16px;
+    }
+}
