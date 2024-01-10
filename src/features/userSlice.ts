@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { InitialUserState } from '../Types'
+import { useAppDispatch } from '../app/hooks';
 
 const initialState : InitialUserState = {
     user: null,
@@ -17,4 +18,6 @@ export const userSlice = createSlice({
         }
     }
 })
+
+export const { login, logout} =userSlice.actions
 export default userSlice.reducer;
